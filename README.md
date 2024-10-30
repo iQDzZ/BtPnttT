@@ -14,6 +14,7 @@ you get a locked frequency of 1250 MHz for the iGPU on the i7 die:
 ## 
 ### zum Beispiel:
 <img src="ShpeelanyShecherDuo.png">
+
 ## 
 or if you were to go powersaving, while being sure that you have the constant minimum of power draw, render wise scenarios:
 > $ echo 350 | sudo tee /sys/class/drm/card0/gt_boost_freq_mhz /sys/class/drm/card0/gt_max_freq_mhz /sys/class/drm/card0/gt_min_freq_mhz
