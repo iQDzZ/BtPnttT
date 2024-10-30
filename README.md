@@ -52,3 +52,9 @@ add the 100 percent to the minimum and maximum margin, so the maximum frequency 
 > echo 100 | sudo tee /sys/devices/system/cpu/intel_pstate/max_perf_pct /sys/devices/system/cpu/intel_pstate/min_perf_pct
 
 ##
+##
+- and to avoid frying your CPU or motherboard, please do, engage the fan at its maximum flow:
+> echo level disengaged > /proc/acpi/ibm/fan
+
+- and to check the fan is running at maximum rate:
+> sensors | grep 'Core 0:\|Core 1:\|fan1:\|temp1:'
