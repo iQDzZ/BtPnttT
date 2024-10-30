@@ -7,4 +7,5 @@ Bringing the P next to the T
 ### will be adding more thorough approach for cpu and fan modulation
 so, if you were to run:
 > $ echo on | tee /sys/class/drm/card0/power/control /sys/devices/i915/power/control
+> 
 > $ echo 1250 | sudo tee /sys/class/drm/card0/gt_boost_freq_mhz /sys/class/drm/card0/gt_max_freq_mhz /sys/class/drm/card0/gt_min_freq_mhz
