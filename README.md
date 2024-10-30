@@ -13,6 +13,11 @@ so, if you were to run:
 you get a locked frequency of 1250 MHz for the iGPU on the i7 die:
 ## 
 ### zum Beispiel:
+> chmod +x monitorScript.sh
+>
+> ./monitorScript.sh
+
+
 <img src="ShpeelanyShecherDuo.png">
 
 ## 
