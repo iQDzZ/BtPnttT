@@ -4,4 +4,4 @@ Bringing the P next to the T
 ### main contribution from the user #eigenbrot, who provided the patch that could be run against the, currently, tested kernel from the LTS branch, 4.19.322
 ### > i915.rc6_enabled=0, kernel flag, parameter and module option, tested and working
 ##
-### will be adding more thorough approach for cpu an fan modulation
+### will be adding more thorough approach for cpu and fan modulation
